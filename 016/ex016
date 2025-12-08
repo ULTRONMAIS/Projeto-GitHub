@@ -1,0 +1,12 @@
+# utilizando Biblioteca comando de math. trunc para deixa o número inteiro
+# Para utilizar so a função us a tag FROM (NOME DA LISTA) IMPORT (NOME DA FUNÇÃO DETERMINADA)
+
+# a FUNÇÃO NO INÍCIO DO CÓDIGO E ''' NO FIM DO CÓDIGO. Para comentar ele todo.
+'''import math
+n = float(input('Dgigite um valor? '))
+print('O valor digitado foi {} e a sua porção interi é {}.'.format(n, math.trunc(n)))'''
+
+# Outra maneira de utilizar a converção de um npumero fracionado para um número inteiro e a função int(mais a variável)
+
+n = float(input('Digite um número? '))
+print('O valor digitado foi {} e a sua porção inteira e {}'.format(n, int(n)))
